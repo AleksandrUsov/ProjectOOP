@@ -4,7 +4,7 @@ namespace blog\models;
 use blog\app\Db;
 use blog\interfaces\IModel;
 
-abstract class Model  implements IModel {
+abstract class Model implements IModel {
 
   public function getOne($id) {
     $tableName = $this->getTableName();

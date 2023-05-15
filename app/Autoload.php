@@ -6,6 +6,9 @@ class Autoload
     {
       $editedClassName = strtr($className, ['blog\\' => '../', '\\' => '/']);
       $editedClassName .= '.php';
-      if (file_exists($editedClassName)) include $editedClassName;
+      if (file_exists($editedClassName))
+      {
+        include $editedClassName;
+      }
     }
 }
