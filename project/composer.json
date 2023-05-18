@@ -1,0 +1,17 @@
+{
+    "name": "app/blog",
+    "autoload": {
+        "psr-4": {
+            "blog\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "Aleksandr Usov",
+            "email": "usov.als579@gmail.com"
+        }
+    ],
+    "require": {
+      "ext-pdo": "*"
+    }
+}

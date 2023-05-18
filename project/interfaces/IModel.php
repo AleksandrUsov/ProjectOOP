@@ -1,8 +1,8 @@
 <?php
-
 namespace blog\interfaces;
 
-interface IModel {
-  public function getOne(int $id);
-  public function getAll();
+interface IModel
+{
+    public function getOne($id);
+    public function getAll();
 }
